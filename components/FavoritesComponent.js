@@ -37,7 +37,8 @@ class Favorites extends Component {
                             onPress={() => 
                                 Alert.alert(
                                     'Delete Favorite?',
-                                     'Are you sure you wish to delete the favorite campsite ' + item.name + '?',
+                                     'Are you sure you wish to delete the favorite campsite ' + 
+                                     item.name + '?',
                                     [
                                         {
                                             text: 'Cancel',
@@ -49,7 +50,7 @@ class Favorites extends Component {
                                             oPress: () => this.props.deleteFavorite(item.id)
                                         },
                                      ],
-                                     {cancelable: false }
+                                     {cancelable: false}
                                 )
                             }
                         >

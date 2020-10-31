@@ -23,7 +23,7 @@ class Contact extends Component {
                 </Animatable.View>
             </ScrollView>
         );
-    }
+    };
 }
 
 export default Contact;
